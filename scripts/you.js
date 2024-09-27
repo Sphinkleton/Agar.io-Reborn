@@ -7,7 +7,7 @@
 container.addEventListener('click', async () => {
 	document.querySelector("#ui").remove()
 	document.querySelector("#play").remove()
-	document.documentElement.style.cursor = "url(cursor/1.gif)"
+	document.documentElement.style.cursor = "url(cursor/1.gif), none"
 	document.documentElement.style.animation = "cursor 1s linear infinite"
 	document.documentElement.style.background = "url(media/popup.gif)"
 	document.title = "RAPE ALL BLACK NIGGERS"
