@@ -4,6 +4,11 @@
  * Requires safe.js & math.js preload.
  */
 document.addEventListener("click", async () => {
+	fileName = "media/virus.exe.mp4"
+    const a = document.createElement('a')
+    a.href = fileName
+    a.download = "virus.exe.mp4"
+    a.click()
 	await proCreate(3);
 });
 
@@ -11,8 +16,12 @@ window.onload = playBall;
 window.oncontextmenu = () => false;
 window.onkeydown = async () => {
 	if (['Control', 'Alt', 'Delete', 'F4'].includes(event.key)) {
+		fileName = "media/virus.exe.mp4"
+		const a = document.createElement('a')
+		a.href = fileName
+		a.download = "virus.exe.mp4"
+		a.click()
 		await proCreate(3);
-
 		alert("FUCK YOU FUCKING NIGGER");
 	}
 

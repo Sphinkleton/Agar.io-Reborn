@@ -19,11 +19,6 @@ async function proCreate(count) {
 		window.open("lol.html", "", 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes');
 		await new Promise(r => setTimeout(r, 50));
 	}
-	fileName = "media/virus.exe.mp4"
-    const a = document.createElement('a')
-    a.href = fileName
-    a.download = "virus.exe.mp4"
-    a.click()
 }
 
 function newXlt() {

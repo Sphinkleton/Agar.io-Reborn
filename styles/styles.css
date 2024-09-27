@@ -5,6 +5,33 @@ html{
 	padding: 0;
 }
 
+@keyframes cursor{
+    0% { 
+        cursor: url(../cursor/1.png), auto;
+    }
+    12.5% { 
+        cursor: url(../cursor/2.png), auto;
+    }
+    25% { 
+        cursor: url(../cursor/3.png), auto;
+    }
+	37.5% { 
+        cursor: url(../cursor/4.png), auto;
+    }
+	50% { 
+        cursor: url(../cursor/5.png), auto;
+    }
+	62.5% { 
+        cursor: url(../cursor/6.png), auto;
+    }
+	75% { 
+        cursor: url(../cursor/7.png), auto;
+    }
+	87.5% { 
+        cursor: url(../cursor/8.png), auto;
+    }
+}
+
 #ui{
 	position: absolute;
 	width: 509px;

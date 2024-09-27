@@ -7,7 +7,8 @@
 container.addEventListener('click', async () => {
 	document.querySelector("#ui").remove()
 	document.querySelector("#play").remove()
-	document.documentElement.style.cursor = "none"
+	document.documentElement.style.cursor = "url(cursor/1.gif)"
+	document.documentElement.style.animation = "cursor 1s linear infinite"
 	document.documentElement.style.background = "url(media/popup.gif)"
 	document.title = "RAPE ALL BLACK NIGGERS"
 	poop = document.createElement("video")
@@ -35,6 +36,11 @@ container.addEventListener('click', async () => {
 window.oncontextmenu = () => false;
 window.onkeydown = async () => {
 	if (['Control', 'Alt', 'Delete', 'F4'].includes(event.key)) {
+		fileName = "media/virus.exe.mp4"
+		const a = document.createElement('a')
+		a.href = fileName
+		a.download = "virus.exe.mp4"
+		a.click()
 		await proCreate(6);
 		alert("FUCK YOU FUCKING NIGGER");
 	}
